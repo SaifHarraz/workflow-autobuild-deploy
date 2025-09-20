@@ -10,5 +10,7 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
-//npm run  
+//npm run  build
 // build  >> create the folder(dist) that u upload on github pages when u dont have autobuild hoster
+// creating .github/workflows/deploy.yml for autobuild
+//Just remember to set base: "/<repo-name>/" in your vite.config.js before building
