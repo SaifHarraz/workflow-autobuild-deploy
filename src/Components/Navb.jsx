@@ -7,7 +7,7 @@ import "./Navb.css";
 // rfce
 function Navb() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary my-navbar">
+    <Navbar expand="lg" className="my-navbar" id='mynavbar'>
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
